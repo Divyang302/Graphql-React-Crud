@@ -4,7 +4,8 @@ import { createUploadLink } from "apollo-upload-client";
 const cache = new InMemoryCache({ addTypename: false });
 const link = createUploadLink({
   fetch,
-  uri: "https://0136-2405-201-200c-823f-d0ad-232a-f862-1ab3.in.ngrok.io/graphql",
+//   uri: "https://0136-2405-201-200c-823f-d0ad-232a-f862-1ab3.in.ngrok.io/graphql",
+  uri:"https://graphql-crud-check.vercel.app/graphql",
   headers: {},
 });
 
